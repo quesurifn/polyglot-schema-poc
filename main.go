@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func GetMostRecentSchema() (string, error) {
+func GetPublishedSchema() (string, error) {
 	jsonFile, err := os.Open("./schema/provider.json")
 	if err != nil {
 		return "", err
