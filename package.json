@@ -1,0 +1,11 @@
+{
+  "name": "provider-schema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "schema/provider.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
