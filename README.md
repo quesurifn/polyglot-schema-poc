@@ -4,7 +4,8 @@
 
 - Have the schema in `/schema/provider.json`
 - Have both package.json and go.mod in root
-- Have a github action to update version for both package.json and go.mod based on tagging
+- Have a github action to update version for both package.json (go packages already use git tags; https://github.com/marketplace/actions/automated-version-bump)
+- Publish package to NPM. The entrypoint is the JSON file. It's importable in TS as long as the `tsconfig.json` has `"resolveJsonModule": true`
 
 
 ## Result
